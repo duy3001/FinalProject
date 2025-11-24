@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # 1. Database SQL Server
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: qna_db
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Sa123456!
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - qna_network
+
+  # 2. Backend (.NET Clean Architecture)
+  backend:
+    build:
+      context: .             # Context ở root để lấy được Domain/Infra
+      dockerfile: Dockerfile # File Dockerfile ở root
+    container_name: qna_backend
+    ports:
+      - "7006:7006"          # Map cổng 7006 máy thật -> 7006 container
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      # Ép container lắng nghe đúng cổng 7006
+      - ASPNETCORE_URLS=http://+:7006
+      # Kết nối DB dùng tên service 'db' thay vì localhost
+      - ConnectionStrings__DefaultConnection=Server=db,1433;Database=QnA;User Id=sa;Password=Sa123456!;TrustServerCertificate=True;
+    depends_on:
+      - db
+    networks:
+      - qna_network
+
+  # 3. Frontend (HTML/CSS/JS thuần)
+  frontend:
+    build:
+      context: ./QnA_FE    # Context vào thư mục FE
+      dockerfile: Dockerfile
+    container_name: qna_frontend
+    ports:
+      - "3000:80"          # Frontend chạy ở cổng 3000 (để tránh trùng 7006 của BE)
+    networks:
+      - qna_network
+
+volumes:
+  sql_data:
+
+networks:
+  qna_network:
+    driver: bridge

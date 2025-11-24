@@ -17,3 +17,4 @@ D:\DATN\FinalProject\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\DATN\FinalProject\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
 D:\DATN\FinalProject\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
 D:\DATN\FinalProject\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\DATN\FinalProject\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

@@ -190,3 +190,4 @@ D:\DATN\FinalProject\QnA_BE\obj\Debug\net8.0\ref\QnA_BE.dll
 D:\DATN\FinalProject\QnA_BE\bin\Debug\net8.0\MediatR.dll
 D:\DATN\FinalProject\QnA_BE\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\DATN\FinalProject\QnA_BE\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\DATN\FinalProject\QnA_BE\obj\Debug\net8.0\QnA_BE.sourcelink.json

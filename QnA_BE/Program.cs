@@ -1,6 +1,10 @@
 ﻿using Infrastructure;
-using QnA_BE.Swagger;
+using Infrastructure.Identity;
+using Infrastructure.Persistence;
+using Infrastructure.Persistence.Seed;
 using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.AspNetCore.Identity;
+using QnA_BE.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,6 +68,16 @@ else
 {
     // Prod/Stage mới bật redirect HTTPS (nếu bạn có chứng chỉ thật)
     app.UseHttpsRedirection();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApplicationDbContext>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+
+    // SEED dữ liệu Q&A mới (tạo admin + users + posts/comments/votes...)
+    await QnASeeder.SeedAsync(context, userManager);
 }
 
 app.UseHttpLogging();
