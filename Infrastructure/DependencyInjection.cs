@@ -9,10 +9,12 @@ using Infrastructure.Services;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Reflection;
 using System.Text;
 
@@ -27,7 +29,11 @@ namespace Infrastructure
             Console.WriteLine(">>> Connection string = " + cs);
             services.AddDbContext<ApplicationDbContext>(opt =>
             {
-                opt.UseSqlServer(cs, b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName));
+                opt.UseSqlServer(cs, b => 
+                {
+                    b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName);
+                    b.EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null);
+                });
             });
             services.AddScoped<IApplicationDbContext>(sp => sp.GetRequiredService<ApplicationDbContext>());
 
@@ -110,9 +116,45 @@ namespace Infrastructure
             var ctx = sp.GetRequiredService<ApplicationDbContext>();
             var userManager = sp.GetRequiredService<UserManager<ApplicationUser>>();
             var roleManager = sp.GetRequiredService<RoleManager<ApplicationRole>>();
+            var configuration = sp.GetRequiredService<IConfiguration>();
+
+            // Ensure database exists before migration
+            var connectionString = configuration.GetConnectionString("DefaultConnection")!;
+            var builder = new SqlConnectionStringBuilder(connectionString);
+            var databaseName = builder.InitialCatalog;
+            builder.InitialCatalog = "master";
+
+            try
+            {
+                using var masterConnection = new SqlConnection(builder.ConnectionString);
+                await masterConnection.OpenAsync();
+                using var command = masterConnection.CreateCommand();
+                command.CommandText = $@"
+                    IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = '{databaseName}')
+                    BEGIN
+                        CREATE DATABASE [{databaseName}];
+                    END";
+                await command.ExecuteNonQueryAsync();
+                Console.WriteLine($"=== Database '{databaseName}' ensured ===");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"=== Warning: Could not ensure database exists: {ex.Message} ===");
+                // Continue to try migration anyway
+            }
 
             // apply migration
-            await ctx.Database.MigrateAsync();
+            try
+            {
+                await ctx.Database.MigrateAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"=== Migration error: {ex.Message} ===");
+                Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                // Re-throw để app biết có lỗi
+                throw;
+            }
 
             // 1. seed Role + Permission + admin user demo
             await IdentitySeeder.SeedAsync(userManager, roleManager);

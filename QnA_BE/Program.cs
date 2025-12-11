@@ -72,16 +72,6 @@ else
     app.UseHttpsRedirection();
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<ApplicationDbContext>();
-    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-
-    // SEED DATABASE
-    await QnASeeder.SeedAsync(context, userManager);
-}
-
 app.UseHttpLogging();
 
 // CORS phải đặt TRƯỚC Auth

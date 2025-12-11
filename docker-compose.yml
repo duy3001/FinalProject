@@ -7,18 +7,13 @@ services:
     environment:
       ACCEPT_EULA: "Y"
       MSSQL_SA_PASSWORD: "Sa123456!"
+      MSSQL_PID: "Developer"  # Use Developer edition (free)
     ports:
       - "1436:1433"          # ĐỔI: host 1436 -> container 1433, tránh trùng SQL máy
     volumes:
       - sql_data:/var/opt/mssql
     networks:
       - qna_network
-    healthcheck:
-      test: ["CMD", "bash", "-c", "echo > /dev/tcp/localhost/1433"]
-      interval: 5s
-      timeout: 5s
-      retries: 5
-      start_period: 15s
 
   # 2. Backend (.NET)
   backend:
@@ -34,9 +29,10 @@ services:
       # Key phải trùng ConnectionStrings:DefaultConnection trong appsettings
       - ConnectionStrings__DefaultConnection=Server=db,1433;Database=QnA;User Id=sa;Password=Sa123456!;TrustServerCertificate=True;
     depends_on:
-      - db
+      - db-migrator
     networks:
       - qna_network
+    restart: unless-stopped
 
   # 3. Frontend (Nginx)
   frontend:
@@ -65,12 +61,23 @@ services:
       - ConnectionStrings__DefaultConnection=Server=db,1433;Database=QnA;User Id=sa;Password=Sa123456!;TrustServerCertificate=True;
     command: >
       /bin/bash -c "
-      echo '--- Đợi DB sẵn sàng ---' &&
-      sleep 20 &&
-      echo '--- Cài đặt dotnet-ef ---' &&
+      echo '--- Waiting for DB to be ready ---' &&
+      for i in {1..60}; do
+        if timeout 2 bash -c 'cat < /dev/null > /dev/tcp/db/1433' 2>/dev/null; then
+          echo '--- DB port is open, testing connection ---' &&
+          sleep 5 &&
+          break
+        fi
+        echo 'DB is not ready yet, waiting... (attempt $$i/60)' &&
+        sleep 2
+      done &&
+      echo '--- Installing dotnet-ef ---' &&
       dotnet tool install --global dotnet-ef --version 8.0.10 || true &&
-      echo '--- Chạy migration ---' &&
-      /root/.dotnet/tools/dotnet-ef database update --project Infrastructure/Infrastructure.csproj --startup-project QnA_BE/QnA_BE.csproj --verbose &&
+      export PATH=\"$$PATH:/root/.dotnet/tools\" &&
+      echo '--- Creating database using EF (if not exists) ---' &&
+      dotnet-ef database update --project Infrastructure/Infrastructure.csproj --startup-project QnA_BE/QnA_BE.csproj --connection 'Server=db,1433;Database=master;User Id=sa;Password=Sa123456!;TrustServerCertificate=True;' --context ApplicationDbContext --no-build 2>/dev/null || true &&
+      echo '--- Running migration ---' &&
+      dotnet-ef database update --project Infrastructure/Infrastructure.csproj --startup-project QnA_BE/QnA_BE.csproj --verbose &&
       echo '=== MIGRATION DONE ==='
       "
 
