@@ -1,30 +1,31 @@
-# --- Giai đoạn 1: Build ---
-# Sử dụng SDK để build code. Chọn version phù hợp (ví dụ .NET 6, 7 hoặc 8)
+# ===== Build stage =====
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy toàn bộ source code từ thư mục gốc vào image
-# Điều này quan trọng vì QnA_BE cần tham chiếu đến Domain, Application, Infrastructure
-COPY . .
+# Copy csproj từng layer để tận dụng cache
+COPY QnA_BE/QnA_BE.csproj ./QnA_BE/
+COPY Application/*.csproj ./Application/
+COPY Domain/*.csproj ./Domain/
+COPY Infrastructure/*.csproj ./Infrastructure/
 
-# Restore các package cho project chính
+# Restore packages cho project BE
 RUN dotnet restore "QnA_BE/QnA_BE.csproj"
 
-# Build và Publish
-# -c Release: Cấu hình tối ưu
-# -o /app/publish: Thư mục đầu ra
-RUN dotnet publish "QnA_BE/QnA_BE.csproj" -c Release -o /app/publish
+# Copy toàn bộ source
+COPY . .
 
-# --- Giai đoạn 2: Runtime ---
-# Sử dụng Runtime nhẹ hơn để chạy ứng dụng
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# Build & publish
+WORKDIR /src/QnA_BE
+RUN dotnet publish -c Release -o /app/publish
+
+# ===== Runtime stage =====
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
-# Copy file đã build từ giai đoạn 1
 COPY --from=build /app/publish .
 
-# Mở port 7006 (mặc định của .NET 8) 
+# BE lắng nghe cổng 7006
 EXPOSE 7006
+ENV ASPNETCORE_URLS=http://+:7006
 
-# Chạy ứng dụng
 ENTRYPOINT ["dotnet", "QnA_BE.dll"]

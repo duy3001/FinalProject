@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DATN\\FinalProject\\QnA_BE\\QnA_BE.csproj": {}
+    "/src/QnA_BE/QnA_BE.csproj": {}
   },
   "projects": {
-    "D:\\DATN\\FinalProject\\Application\\Application.csproj": {
+    "/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\FinalProject\\Application\\Application.csproj",
+        "projectUniqueName": "/src/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\DATN\\FinalProject\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Hoang Nam\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\FinalProject\\Application\\obj\\",
+        "projectPath": "/src/Application/Application.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hoang Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATN\\FinalProject\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DATN\\FinalProject\\Domain\\Domain.csproj"
+              "/src/Domain/Domain.csproj": {
+                "projectPath": "/src/Domain/Domain.csproj"
               }
             }
           }
@@ -47,8 +41,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -83,32 +76,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATN\\FinalProject\\Domain\\Domain.csproj": {
+    "/src/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\FinalProject\\Domain\\Domain.csproj",
+        "projectUniqueName": "/src/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DATN\\FinalProject\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Hoang Nam\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\FinalProject\\Domain\\obj\\",
+        "projectPath": "/src/Domain/Domain.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hoang Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,8 +113,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -148,43 +134,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATN\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
+    "/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\FinalProject\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\DATN\\FinalProject\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Hoang Nam\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\FinalProject\\Infrastructure\\obj\\",
+        "projectPath": "/src/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hoang Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATN\\FinalProject\\Application\\Application.csproj": {
-                "projectPath": "D:\\DATN\\FinalProject\\Application\\Application.csproj"
+              "/src/Application/Application.csproj": {
+                "projectPath": "/src/Application/Application.csproj"
               },
-              "D:\\DATN\\FinalProject\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\DATN\\FinalProject\\Domain\\Domain.csproj"
+              "/src/Domain/Domain.csproj": {
+                "projectPath": "/src/Domain/Domain.csproj"
               }
             }
           }
@@ -198,8 +178,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -252,40 +231,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\DATN\\FinalProject\\QnA_BE\\QnA_BE.csproj": {
+    "/src/QnA_BE/QnA_BE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DATN\\FinalProject\\QnA_BE\\QnA_BE.csproj",
+        "projectUniqueName": "/src/QnA_BE/QnA_BE.csproj",
         "projectName": "QnA_BE",
-        "projectPath": "D:\\DATN\\FinalProject\\QnA_BE\\QnA_BE.csproj",
-        "packagesPath": "C:\\Users\\Hoang Nam\\.nuget\\packages\\",
-        "outputPath": "D:\\DATN\\FinalProject\\QnA_BE\\obj\\",
+        "projectPath": "/src/QnA_BE/QnA_BE.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/QnA_BE/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hoang Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\DATN\\FinalProject\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\DATN\\FinalProject\\Infrastructure\\Infrastructure.csproj"
+              "/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -299,8 +272,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -336,7 +308,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.416/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

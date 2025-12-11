@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zf+ZWjCZZFw=",
+  "dgSpecHash": "qgJrMn+4qVU=",
   "success": true,
-  "projectFilePath": "D:\\DATN\\FinalProject\\Domain\\Domain.csproj",
+  "projectFilePath": "/src/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

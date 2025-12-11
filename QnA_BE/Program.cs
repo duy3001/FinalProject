@@ -23,11 +23,13 @@ var allowedOrigins = builder.Configuration
     .Get<string[]>()
     ?? new[]
     {
-        "http://localhost:5173", // Vite
+        "http://localhost:5173",   // Vite
         "http://127.0.0.1:5173",
-        "http://localhost:5500", // VSCode Live Server
-        "http://localhost"       // tự host static
+        "http://localhost:5500",   // Live Server
+        "http://localhost:3000",   // FE chạy trong Docker
+        "http://localhost"         // fallback chung
     };
+
 
 builder.Services.AddCors(opt =>
 {
@@ -68,6 +70,16 @@ else
 {
     // Prod/Stage mới bật redirect HTTPS (nếu bạn có chứng chỉ thật)
     app.UseHttpsRedirection();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApplicationDbContext>();
+    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+
+    // SEED DATABASE
+    await QnASeeder.SeedAsync(context, userManager);
 }
 
 app.UseHttpLogging();

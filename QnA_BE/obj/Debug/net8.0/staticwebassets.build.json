@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"ee/5o4V2W3SYfJ2/OhKTQSNh7ePxEUmLM3p+xZqVK3M=","Source":"QnA_BE","BasePath":"_content/QnA_BE","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "B+JwGOsDfWTuVpBNJoM+jgVvhYo9RiAjaDaWfaN+gEc=",
+  "Source": "QnA_BE",
+  "BasePath": "_content/QnA_BE",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

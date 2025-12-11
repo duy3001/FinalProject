@@ -1,9 +1,11 @@
-FROM nginx:stable-alpine
+FROM nginx:alpine
 
-# Copy toàn bộ file FE vào thư mục html
-COPY . /usr/share/nginx/html/
+# Xóa html default
+RUN rm -rf /usr/share/nginx/html/*
 
-# Copy file nginx config
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Copy toàn bộ FE (assets, page, partials...)
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]

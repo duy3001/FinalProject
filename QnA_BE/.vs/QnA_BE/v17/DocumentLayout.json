@@ -3,21 +3,37 @@
   "WorkspaceRootPath": "D:\\DATN\\FinalProject\\QnA_BE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F91C506-4FC1-44DC-95C4-FB58FAD91C89}|..\\Infrastructure\\Infrastructure.csproj|d:\\datn\\finalproject\\infrastructure\\persistence\\seed\\qnaseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C68CDDB3-EEC0-4733-9222-82BF347DC76C}|..\\Domain\\Domain.csproj|d:\\datn\\finalproject\\domain\\entities\\commentrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\posts\\queries\\listposts\\listpostsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C68CDDB3-EEC0-4733-9222-82BF347DC76C}|..\\Domain\\Domain.csproj|d:\\datn\\finalproject\\domain\\entities\\postrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68CDDB3-EEC0-4733-9222-82BF347DC76C}|..\\Domain\\Domain.csproj|d:\\datn\\finalproject\\domain\\entities\\commentrevision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F91C506-4FC1-44DC-95C4-FB58FAD91C89}|..\\Infrastructure\\Infrastructure.csproj|d:\\datn\\finalproject\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -140,10 +156,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\controllers\\postcommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:controllers\\postcommentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{027E9933-A97F-449D-A1E2-E0CD5B4EA1A1}|QnA_BE.csproj|d:\\datn\\finalproject\\qna_be\\controllers\\mecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -415,9 +427,6 @@
       "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -506,9 +515,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\posts\\queries\\getpostdetail\\getpostdetailqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\posts\\queries\\listposts\\listpostsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\posts\\dtos\\postsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -616,9 +622,6 @@
       "AbsoluteMoniker": "D:0:0:{8F91C506-4FC1-44DC-95C4-FB58FAD91C89}|..\\Infrastructure\\Infrastructure.csproj|d:\\datn\\finalproject\\infrastructure\\migrations\\20251101111639_add_post_tag_posttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\auth\\commands\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34011AAF-8E11-4E2A-8A4D-8E01E09DD960}|..\\Application\\Application.csproj|d:\\datn\\finalproject\\application\\posts\\commands\\votepost\\votepostcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -677,15 +680,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -693,106 +704,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:42:29.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-01T02:43:05.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAywBkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:37:17.084Z"
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPcAAAAAAAAAAIAwwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-07T18:19:26.454Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "..\\Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAQwBoAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T06:49:14.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QnASeeder.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
-              "ViewState": "AgIAAJgBAAAAAAAAAAAgwLEBAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T17:20:39.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Permissions.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Authorization\\Permissions.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Common\\Authorization\\Permissions.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Domain\\Common\\Authorization\\Permissions.cs",
-              "RelativeToolTip": "..\\Domain\\Common\\Authorization\\Permissions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T01:58:59.791Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TagConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T09:46:11.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VoteTypeConfiguration.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T02:39:09.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PostRevision.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\PostRevision.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\PostRevision.cs",
@@ -805,7 +728,156 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Auth\\DTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "..\\Application\\Auth\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:18:25.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:22:38.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListPostsQueryHandler.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
+              "RelativeToolTip": "..\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:08:08.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T11:10:33.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TagConfiguration.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Configurations\\TagConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T09:46:11.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Authorization\\Permissions.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Common\\Authorization\\Permissions.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Domain\\Common\\Authorization\\Permissions.cs",
+              "RelativeToolTip": "..\\Domain\\Common\\Authorization\\Permissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:58:59.791Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "QnASeeder.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Seed\\QnASeeder.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwFEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T17:20:39.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:42:29.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VoteTypeConfiguration.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Persistence\\Configurations\\VoteTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:39:09.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "..\\Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwBoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T06:49:14.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAywBkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T02:37:17.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-01T02:43:05.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CommentRevision.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\CommentRevision.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\CommentRevision.cs",
@@ -813,12 +885,11 @@
               "RelativeToolTip": "..\\Domain\\Entities\\CommentRevision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T17:02:18.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T17:02:18.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IdentitySeeder.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Identity\\IdentitySeeder.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Identity\\IdentitySeeder.cs",
@@ -830,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "RefreshTokenConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\RefreshTokenConfiguration.cs",
@@ -842,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Member.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Member.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Member.cs",
@@ -854,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Identity\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Identity\\ApplicationUser.cs",
@@ -866,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ApplicationRole.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Identity\\ApplicationRole.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Identity\\ApplicationRole.cs",
@@ -878,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IdentityService.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Identity\\IdentityService.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Identity\\IdentityService.cs",
@@ -890,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "VoteType.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\VoteType.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\VoteType.cs",
@@ -902,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "NotificationType.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Enums\\NotificationType.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Enums\\NotificationType.cs",
@@ -914,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "VoteTypeEnum.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Enums\\VoteTypeEnum.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Enums\\VoteTypeEnum.cs",
@@ -926,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "PostVoteConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\PostVoteConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\PostVoteConfiguration.cs",
@@ -938,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "PostTagConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\PostTagConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\PostTagConfiguration.cs",
@@ -950,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "PostRevisionConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\PostRevisionConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\PostRevisionConfiguration.cs",
@@ -962,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "PostConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\PostConfiguration.cs",
@@ -974,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "PostAttachmentConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\PostAttachmentConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\PostAttachmentConfiguration.cs",
@@ -986,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "NotificationConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\NotificationConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\NotificationConfiguration.cs",
@@ -998,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "MemberConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\MemberConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\MemberConfiguration.cs",
@@ -1010,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "CommentVoteConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\CommentVoteConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\CommentVoteConfiguration.cs",
@@ -1022,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "CommentRevisionConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\CommentRevisionConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\CommentRevisionConfiguration.cs",
@@ -1034,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "CommentConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\CommentConfiguration.cs",
@@ -1046,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "CommentAttachmentConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\CommentAttachmentConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\CommentAttachmentConfiguration.cs",
@@ -1058,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "CategoryConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\CategoryConfiguration.cs",
@@ -1070,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "IApplicationDbContext.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\IApplicationDbContext.cs",
@@ -1082,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "PostVote.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\PostVote.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\PostVote.cs",
@@ -1094,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "TrustLevel.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\TrustLevel.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\TrustLevel.cs",
@@ -1106,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "Tag.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Tag.cs",
@@ -1118,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "PostTag.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\PostTag.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\PostTag.cs",
@@ -1130,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "PostAttachment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\PostAttachment.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\PostAttachment.cs",
@@ -1142,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Post.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Post.cs",
@@ -1154,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "Notification.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Notification.cs",
@@ -1166,7 +1237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "CommentVote.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\CommentVote.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\CommentVote.cs",
@@ -1178,7 +1249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Category.cs",
@@ -1190,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Comment.cs",
@@ -1202,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\Auth\\RefreshToken.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\Auth\\RefreshToken.cs",
@@ -1214,7 +1285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "SearchPostsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchPosts\\SearchPostsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchPosts\\SearchPostsQueryHandler.cs",
@@ -1226,7 +1297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "SearchAllQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchAll\\SearchAllQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchAll\\SearchAllQueryHandler.cs",
@@ -1238,7 +1309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "SearchAllResult.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\DTOs\\SearchAllResult.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\DTOs\\SearchAllResult.cs",
@@ -1250,7 +1321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "SearchTagsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchTags\\SearchTagsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchTags\\SearchTagsQueryHandler.cs",
@@ -1262,7 +1333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "SearchController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\SearchController.cs",
               "RelativeDocumentMoniker": "Controllers\\SearchController.cs",
@@ -1274,7 +1345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "RemoveCommentAttachmentCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\RemoveCommentAttachment\\RemoveCommentAttachmentCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\RemoveCommentAttachment\\RemoveCommentAttachmentCommand.cs",
@@ -1286,7 +1357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "UploadAvatarCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Commands\\UploadAvatar\\UploadAvatarCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Commands\\UploadAvatar\\UploadAvatarCommandHandler.cs",
@@ -1298,7 +1369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "SearchUsersQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchUsers\\SearchUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchUsers\\SearchUsersQueryHandler.cs",
@@ -1310,7 +1381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "GetCommentAttachmentsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentAttachments\\GetCommentAttachmentsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentAttachments\\GetCommentAttachmentsQueryHandler.cs",
@@ -1322,7 +1393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "FileDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Models\\FileDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Models\\FileDto.cs",
@@ -1334,7 +1405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Entities\\BaseEntity.cs",
@@ -1346,7 +1417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "GetCommentAttachmentsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentAttachments\\GetCommentAttachmentsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentAttachments\\GetCommentAttachmentsQuery.cs",
@@ -1358,7 +1429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "20251111033224_Add_CommentAttachment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251111033224_Add_CommentAttachment.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251111033224_Add_CommentAttachment.cs",
@@ -1370,7 +1441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "RemoveCommentAttachmentCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\RemoveCommentAttachment\\RemoveCommentAttachmentCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\RemoveCommentAttachment\\RemoveCommentAttachmentCommandHandler.cs",
@@ -1382,7 +1453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "PostCommentsController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\PostCommentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostCommentsController.cs",
@@ -1394,7 +1465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 73,
               "Title": "AddCommentLinkCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\AddCommentLink\\AddCommentLinkCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\AddCommentLink\\AddCommentLinkCommandHandler.cs",
@@ -1406,7 +1477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 74,
               "Title": "AddCommentLinkCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\AddCommentLink\\AddCommentLinkCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\AddCommentLink\\AddCommentLinkCommand.cs",
@@ -1418,7 +1489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "UploadCommentImageCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\UploadCommentImage\\UploadCommentImageCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\UploadCommentImage\\UploadCommentImageCommandHandler.cs",
@@ -1430,7 +1501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "UploadCommentImageCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\UploadCommentImage\\UploadCommentImageCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\UploadCommentImage\\UploadCommentImageCommand.cs",
@@ -1442,7 +1513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "AddCommentLinkRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\AddCommentLinkRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\AddCommentLinkRequest.cs",
@@ -1454,7 +1525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "CommentAttachmentDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\CommentAttachmentDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\CommentAttachmentDto.cs",
@@ -1466,7 +1537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "CommentAttachment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Entities\\CommentAttachment.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\CommentAttachment.cs",
@@ -1478,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "20251111032201_Add_PostAttachment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251111032201_Add_PostAttachment.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251111032201_Add_PostAttachment.cs",
@@ -1490,7 +1561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "RemoveAttachmentCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\RemoveAttachment\\RemoveAttachmentCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\RemoveAttachment\\RemoveAttachmentCommandHandler.cs",
@@ -1502,7 +1573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "RemoveAttachmentCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\RemoveAttachment\\RemoveAttachmentCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\RemoveAttachment\\RemoveAttachmentCommand.cs",
@@ -1514,7 +1585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "AddPostLinkCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\AddPostLink\\AddPostLinkCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\AddPostLink\\AddPostLinkCommandHandler.cs",
@@ -1526,19 +1597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\PostController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\PostController.cs",
-              "RelativeToolTip": "Controllers\\PostController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAswI8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T11:10:33.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "GetPostAttachmentsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostAttachments\\GetPostAttachmentsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostAttachments\\GetPostAttachmentsQuery.cs",
@@ -1550,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "GetPostAttachmentsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostAttachments\\GetPostAttachmentsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostAttachments\\GetPostAttachmentsQueryHandler.cs",
@@ -1562,7 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "AddPostLinkCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\AddPostLink\\AddPostLinkCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\AddPostLink\\AddPostLinkCommand.cs",
@@ -1574,7 +1633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "UploadPostImageCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\UploadPostImage\\UploadPostImageCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\UploadPostImage\\UploadPostImageCommandHandler.cs",
@@ -1586,7 +1645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "UploadPostImageCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\UploadPostImage\\UploadPostImageCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\UploadPostImage\\UploadPostImageCommand.cs",
@@ -1598,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "AddLinkRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\AddLinkRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\AddLinkRequest.cs",
@@ -1610,7 +1669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "AttachmentDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\AttachmentDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\AttachmentDto.cs",
@@ -1622,7 +1681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 91,
               "Title": "AttachmentType.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Enums\\AttachmentType.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Enums\\AttachmentType.cs",
@@ -1634,7 +1693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "MeController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\MeController.cs",
               "RelativeDocumentMoniker": "Controllers\\MeController.cs",
@@ -1646,7 +1705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Swagger\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "Swagger\\SwaggerConfig.cs",
@@ -1658,7 +1717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
@@ -1670,7 +1729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 92,
               "Title": "IFileStorage.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\IFileStorage.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\IFileStorage.cs",
@@ -1682,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 93,
               "Title": "Paged.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Models\\Paged.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Models\\Paged.cs",
@@ -1694,7 +1753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 94,
               "Title": "GetUserActivitiesQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetUserActivities\\GetUserActivitiesQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetUserActivities\\GetUserActivitiesQueryHandler.cs",
@@ -1706,7 +1765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 95,
               "Title": "UpdateMyProfileCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Commands\\UpdateMyProfile\\UpdateMyProfileCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Commands\\UpdateMyProfile\\UpdateMyProfileCommandHandler.cs",
@@ -1718,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 96,
               "Title": "UpdateMyProfileCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Commands\\UpdateMyProfile\\UpdateMyProfileCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Commands\\UpdateMyProfile\\UpdateMyProfileCommand.cs",
@@ -1730,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 97,
               "Title": "UploadAvatarCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Commands\\UploadAvatar\\UploadAvatarCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Commands\\UploadAvatar\\UploadAvatarCommand.cs",
@@ -1742,7 +1801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 98,
               "Title": "GetUserActivitiesQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetUserActivities\\GetUserActivitiesQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetUserActivities\\GetUserActivitiesQuery.cs",
@@ -1754,7 +1813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 99,
               "Title": "LocalFileStorage.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Services\\LocalFileStorage.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\LocalFileStorage.cs",
@@ -1766,7 +1825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 100,
               "Title": "GetPublicUserQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetPublicUser\\GetPublicUserQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetPublicUser\\GetPublicUserQueryHandler.cs",
@@ -1778,7 +1837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 101,
               "Title": "GetPublicUserQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetPublicUser\\GetPublicUserQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetPublicUser\\GetPublicUserQuery.cs",
@@ -1790,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 102,
               "Title": "GetMyProfileQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetMyProfile\\GetMyProfileQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetMyProfile\\GetMyProfileQueryHandler.cs",
@@ -1802,7 +1861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 103,
               "Title": "GetMyProfileQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\Queries\\GetMyProfile\\GetMyProfileQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\Queries\\GetMyProfile\\GetMyProfileQuery.cs",
@@ -1814,7 +1873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 104,
               "Title": "ActivityDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\DTOs\\ActivityDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\DTOs\\ActivityDto.cs",
@@ -1826,7 +1885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 105,
               "Title": "PublicUserDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\DTOs\\PublicUserDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\DTOs\\PublicUserDto.cs",
@@ -1838,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 106,
               "Title": "MeUpdateRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\DTOs\\MeUpdateRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\DTOs\\MeUpdateRequest.cs",
@@ -1850,7 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 107,
               "Title": "MeDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\DTOs\\MeDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\DTOs\\MeDto.cs",
@@ -1862,7 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 108,
               "Title": "20251110170654_Add_Comment_Revisions.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251110170654_Add_Comment_Revisions.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251110170654_Add_Comment_Revisions.cs",
@@ -1874,7 +1933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "NotificationsController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
@@ -1886,7 +1945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 109,
               "Title": "MemberSummaryDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Members\\DTOs\\MemberSummaryDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Members\\DTOs\\MemberSummaryDto.cs",
@@ -1898,7 +1957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 110,
               "Title": "GetCommentRevisionDetailQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentRevisionDetail\\GetCommentRevisionDetailQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentRevisionDetail\\GetCommentRevisionDetailQueryHandler.cs",
@@ -1910,7 +1969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 111,
               "Title": "GetCommentRevisionDetailQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentRevisionDetail\\GetCommentRevisionDetailQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentRevisionDetail\\GetCommentRevisionDetailQuery.cs",
@@ -1922,7 +1981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 112,
               "Title": "GetCommentRevisionsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentRevisions\\GetCommentRevisionsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentRevisions\\GetCommentRevisionsQueryHandler.cs",
@@ -1934,7 +1993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 113,
               "Title": "GetCommentRevisionsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentRevisions\\GetCommentRevisionsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentRevisions\\GetCommentRevisionsQuery.cs",
@@ -1946,7 +2005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 114,
               "Title": "UpdateCommentCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\UpdateComment\\UpdateCommentCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\UpdateComment\\UpdateCommentCommandHandler.cs",
@@ -1958,7 +2017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 115,
               "Title": "UpdateCommentCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\UpdateComment\\UpdateCommentCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\UpdateComment\\UpdateCommentCommand.cs",
@@ -1970,7 +2029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 116,
               "Title": "CommentRevisionDetailDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\CommentRevisionDetailDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\CommentRevisionDetailDto.cs",
@@ -1982,7 +2041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 117,
               "Title": "CommentDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\CommentDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\CommentDto.cs",
@@ -1994,7 +2053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 118,
               "Title": "CommentRevisionDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\CommentRevisionDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\CommentRevisionDto.cs",
@@ -2006,7 +2065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 119,
               "Title": "UpdateCommentRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\UpdateCommentRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\UpdateCommentRequest.cs",
@@ -2018,7 +2077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 120,
               "Title": "20251110165542_Add_Post_Revisions.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251110165542_Add_Post_Revisions.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251110165542_Add_Post_Revisions.cs",
@@ -2030,7 +2089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 121,
               "Title": "GetPostRevisionsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostRevisions\\GetPostRevisionsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostRevisions\\GetPostRevisionsQueryHandler.cs",
@@ -2042,7 +2101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 122,
               "Title": "GetPostRevisionDetailQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostRevisionDetail\\GetPostRevisionDetailQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostRevisionDetail\\GetPostRevisionDetailQueryHandler.cs",
@@ -2054,7 +2113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 123,
               "Title": "UpdatePostCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\UpdatePost\\UpdatePostCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\UpdatePost\\UpdatePostCommandHandler.cs",
@@ -2066,7 +2125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 124,
               "Title": "GetPostRevisionDetailQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostRevisionDetail\\GetPostRevisionDetailQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostRevisionDetail\\GetPostRevisionDetailQuery.cs",
@@ -2078,7 +2137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 125,
               "Title": "GetPostRevisionsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostRevisions\\GetPostRevisionsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostRevisions\\GetPostRevisionsQuery.cs",
@@ -2090,7 +2149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 126,
               "Title": "RevisionDetailDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\RevisionDetailDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\RevisionDetailDto.cs",
@@ -2102,7 +2161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 127,
               "Title": "RevisionDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\RevisionDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\RevisionDto.cs",
@@ -2114,7 +2173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 128,
               "Title": "CreatePostCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\CreatePost\\CreatePostCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\CreatePost\\CreatePostCommandHandler.cs",
@@ -2126,7 +2185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 129,
               "Title": "CreatePostCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\CreatePost\\CreatePostCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\CreatePost\\CreatePostCommand.cs",
@@ -2138,7 +2197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 130,
               "Title": "PostDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\PostDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\PostDto.cs",
@@ -2150,7 +2209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 131,
               "Title": "ListPostsByTagQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListByTag\\ListPostsByTagQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\ListByTag\\ListPostsByTagQueryHandler.cs",
@@ -2162,7 +2221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 132,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "..\\Application\\DependencyInjection.cs",
@@ -2174,7 +2233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 133,
               "Title": "CreatePostRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\CreatePostRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\CreatePostRequest.cs",
@@ -2186,7 +2245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "StatsController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\StatsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StatsController.cs",
@@ -2198,7 +2257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 134,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Services\\EmailSender.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\EmailSender.cs",
@@ -2210,7 +2269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -2222,7 +2281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 135,
               "Title": "RegisterCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\Register\\RegisterCommandHandler.cs",
@@ -2234,7 +2293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 136,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\DTOs\\RegisterRequest.cs",
@@ -2246,7 +2305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "QnA_BE.http",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\QnA_BE.http",
               "RelativeDocumentMoniker": "QnA_BE.http",
@@ -2258,19 +2317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Auth\\DTOs\\LoginRequest.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\LoginRequest.cs",
-              "RelativeToolTip": "..\\Application\\Auth\\DTOs\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:18:25.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 137,
               "Title": "AuthResponse.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\AuthResponse.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\DTOs\\AuthResponse.cs",
@@ -2282,7 +2329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 138,
               "Title": "VerifyEmailRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\DTOs\\VerifyEmailRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\DTOs\\VerifyEmailRequest.cs",
@@ -2294,7 +2341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 139,
               "Title": "JwtTokenGenerator.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Auth\\JwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Auth\\JwtTokenGenerator.cs",
@@ -2306,7 +2353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 140,
               "Title": "IIdentityService.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\IIdentityService.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\IIdentityService.cs",
@@ -2318,7 +2365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 141,
               "Title": "CreateCommentRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\CreateCommentRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\CreateCommentRequest.cs",
@@ -2330,7 +2377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 142,
               "Title": "20251106065454_Add_Notification.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251106065454_Add_Notification.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251106065454_Add_Notification.cs",
@@ -2342,7 +2389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 143,
               "Title": "VoteCommentCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\VoteComment\\VoteCommentCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\VoteComment\\VoteCommentCommandHandler.cs",
@@ -2354,7 +2401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 144,
               "Title": "AddCommentCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\AddComment\\AddCommentCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\AddComment\\AddCommentCommandHandler.cs",
@@ -2366,7 +2413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 145,
               "Title": "VotePostCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\VotePost\\VotePostCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\VotePost\\VotePostCommandHandler.cs",
@@ -2378,7 +2425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 146,
               "Title": "MarkReadNotificationsCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Commands\\MarkRead\\MarkReadNotificationsCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Commands\\MarkRead\\MarkReadNotificationsCommandHandler.cs",
@@ -2390,7 +2437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 147,
               "Title": "MarkReadNotificationsCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Commands\\MarkRead\\MarkReadNotificationsCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Commands\\MarkRead\\MarkReadNotificationsCommand.cs",
@@ -2402,7 +2449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 148,
               "Title": "GetUnreadCountQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Queries\\GetUnreadCount\\GetUnreadCountQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Queries\\GetUnreadCount\\GetUnreadCountQueryHandler.cs",
@@ -2414,7 +2461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 149,
               "Title": "GetUnreadCountQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Queries\\GetUnreadCount\\GetUnreadCountQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Queries\\GetUnreadCount\\GetUnreadCountQuery.cs",
@@ -2426,7 +2473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 150,
               "Title": "ListNotificationsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Queries\\ListNotifications\\ListNotificationsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Queries\\ListNotifications\\ListNotificationsQueryHandler.cs",
@@ -2438,7 +2485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 151,
               "Title": "ListNotificationsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\Queries\\ListNotifications\\ListNotificationsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\Queries\\ListNotifications\\ListNotificationsQuery.cs",
@@ -2450,7 +2497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "20251106061936_Add_Notification.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251106061936_Add_Notification.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251106061936_Add_Notification.cs",
@@ -2461,7 +2508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 152,
               "Title": "NotificationDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Notifications\\DTOs\\NotificationDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Notifications\\DTOs\\NotificationDto.cs",
@@ -2473,7 +2520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "20251106061134_Add_Notification.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251106061134_Add_Notification.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251106061134_Add_Notification.cs",
@@ -2484,7 +2531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 153,
               "Title": "GetOverviewStatsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetOveriewStats\\GetOverviewStatsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetOveriewStats\\GetOverviewStatsQueryHandler.cs",
@@ -2496,7 +2543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 154,
               "Title": "GetUserStatsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetUserStats\\GetUserStatsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetUserStats\\GetUserStatsQueryHandler.cs",
@@ -2508,7 +2555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 155,
               "Title": "GetMyStatsQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetMyStats\\GetMyStatsQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetMyStats\\GetMyStatsQueryHandler.cs",
@@ -2520,7 +2567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 156,
               "Title": "GetOverviewStatsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetOveriewStats\\GetOverviewStatsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetOveriewStats\\GetOverviewStatsQuery.cs",
@@ -2532,7 +2579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 157,
               "Title": "GetUserStatsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetUserStats\\GetUserStatsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetUserStats\\GetUserStatsQuery.cs",
@@ -2544,7 +2591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 158,
               "Title": "GetMyStatsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\Queries\\GetMyStats\\GetMyStatsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\Queries\\GetMyStats\\GetMyStatsQuery.cs",
@@ -2556,7 +2603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 159,
               "Title": "OverviewStatsDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\DTOs\\OverviewStatsDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\DTOs\\OverviewStatsDto.cs",
@@ -2568,7 +2615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 160,
               "Title": "UserStatsDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Stats\\DTOs\\UserStatsDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Stats\\DTOs\\UserStatsDto.cs",
@@ -2580,7 +2627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 161,
               "Title": "SearchAllQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchAll\\SearchAllQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchAll\\SearchAllQuery.cs",
@@ -2592,7 +2639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 162,
               "Title": "SearchPostsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchPosts\\SearchPostsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchPosts\\SearchPostsQuery.cs",
@@ -2604,7 +2651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 163,
               "Title": "SearchTagsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchTags\\SearchTagsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchTags\\SearchTagsQuery.cs",
@@ -2616,7 +2663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 164,
               "Title": "SearchUsersQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Search\\Queries\\SearchUsers\\SearchUsersQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Search\\Queries\\SearchUsers\\SearchUsersQuery.cs",
@@ -2628,7 +2675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 165,
               "Title": "TagDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Tags\\DTOs\\TagDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Tags\\DTOs\\TagDto.cs",
@@ -2640,7 +2687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 166,
               "Title": "GetPostDetailQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostDetail\\GetPostDetailQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostDetail\\GetPostDetailQueryHandler.cs",
@@ -2652,19 +2699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
-              "Title": "ListPostsQueryHandler.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
-              "RelativeToolTip": "..\\Application\\Posts\\Queries\\ListPosts\\ListPostsQueryHandler.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T11:08:08.612Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 167,
               "Title": "PostSummaryDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\PostSummaryDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\PostSummaryDto.cs",
@@ -2676,7 +2711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 168,
               "Title": "PostDetailDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\PostDetailDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\PostDetailDto.cs",
@@ -2688,7 +2723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 167,
+              "DocumentIndex": 169,
               "Title": "UpdatePostRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\UpdatePostRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\UpdatePostRequest.cs",
@@ -2700,7 +2735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 168,
+              "DocumentIndex": 170,
               "Title": "VoteRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\DTOs\\VoteRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\DTOs\\VoteRequest.cs",
@@ -2712,7 +2747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\QnA_BE\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -2724,7 +2759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 169,
+              "DocumentIndex": 171,
               "Title": "CreateCategoryCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Commands\\CreateCategory\\CreateCategoryCommandHandler.cs",
@@ -2736,7 +2771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 170,
+              "DocumentIndex": 172,
               "Title": "GetCategoryBySlugQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetCategoryBySlug\\GetCategoryBySlugQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetCategoryBySlug\\GetCategoryBySlugQuery.cs",
@@ -2748,7 +2783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 171,
+              "DocumentIndex": 173,
               "Title": "GetCategoryBySlugQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetCategoryBySlug\\GetCategoryBySlugQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetCategoryBySlug\\GetCategoryBySlugQueryHandler.cs",
@@ -2760,7 +2795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 172,
+              "DocumentIndex": 174,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\DTOs\\CategoryDto.cs",
@@ -2772,7 +2807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 173,
+              "DocumentIndex": 175,
               "Title": "CategoryCreateUpdateRequest.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\DTOs\\CategoryCreateUpdateRequest.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\DTOs\\CategoryCreateUpdateRequest.cs",
@@ -2784,7 +2819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 174,
+              "DocumentIndex": 176,
               "Title": "GetPostsByCategoryQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetPostByCategory\\GetPostsByCategoryQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetPostByCategory\\GetPostsByCategoryQueryHandler.cs",
@@ -2796,7 +2831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 175,
+              "DocumentIndex": 177,
               "Title": "GetCategoriesQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetCategory\\GetCategoriesQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetCategory\\GetCategoriesQueryHandler.cs",
@@ -2808,7 +2843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 176,
+              "DocumentIndex": 178,
               "Title": "CreateCategoryCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Commands\\CreateCategory\\CreateCategoryCommand.cs",
@@ -2820,7 +2855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 177,
+              "DocumentIndex": 179,
               "Title": "20251104044218_Add_Category_And_Post_CategoryId.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251104044218_Add_Category_And_Post_CategoryId.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251104044218_Add_Category_And_Post_CategoryId.cs",
@@ -2832,7 +2867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 178,
+              "DocumentIndex": 180,
               "Title": "UpdateCategoryCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommandHandler.cs",
@@ -2844,7 +2879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 179,
+              "DocumentIndex": 181,
               "Title": "UpdateCategoryCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Commands\\UpdateCategory\\UpdateCategoryCommand.cs",
@@ -2856,7 +2891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 180,
+              "DocumentIndex": 182,
               "Title": "GetPostsByCategoryQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetPostByCategory\\GetPostsByCategoryQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetPostByCategory\\GetPostsByCategoryQuery.cs",
@@ -2868,7 +2903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 181,
+              "DocumentIndex": 183,
               "Title": "GetCategoriesQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Categories\\Queries\\GetCategory\\GetCategoriesQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Categories\\Queries\\GetCategory\\GetCategoriesQuery.cs",
@@ -2880,7 +2915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 182,
+              "DocumentIndex": 184,
               "Title": "GetCommentsByPostQueryHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentsByPost\\GetCommentsByPostQueryHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentsByPost\\GetCommentsByPostQueryHandler.cs",
@@ -2892,7 +2927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 183,
+              "DocumentIndex": 185,
               "Title": "GetCommentsByPostQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Queries\\GetCommentsByPost\\GetCommentsByPostQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Queries\\GetCommentsByPost\\GetCommentsByPostQuery.cs",
@@ -2904,7 +2939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 184,
+              "DocumentIndex": 186,
               "Title": "20251104041430_Add_CommentVotes.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251104041430_Add_CommentVotes.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251104041430_Add_CommentVotes.cs",
@@ -2916,7 +2951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 185,
+              "DocumentIndex": 187,
               "Title": "VoteCommentResponse.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\DTOs\\VoteCommentResponse.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\DTOs\\VoteCommentResponse.cs",
@@ -2928,7 +2963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 186,
+              "DocumentIndex": 188,
               "Title": "VoteCommentCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\VoteComment\\VoteCommentCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\VoteComment\\VoteCommentCommand.cs",
@@ -2940,7 +2975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 187,
+              "DocumentIndex": 189,
               "Title": "20251104035627_Add_Comment.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251104035627_Add_Comment.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251104035627_Add_Comment.cs",
@@ -2952,7 +2987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 188,
+              "DocumentIndex": 190,
               "Title": "AddCommentCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Comments\\Commands\\AddComment\\AddCommentCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Comments\\Commands\\AddComment\\AddCommentCommand.cs",
@@ -2964,7 +2999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 189,
+              "DocumentIndex": 191,
               "Title": "SoftDeletableEntity.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Entities\\SoftDeletableEntity.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Entities\\SoftDeletableEntity.cs",
@@ -2976,7 +3011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 190,
+              "DocumentIndex": 192,
               "Title": "TrustLevelEnum.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Enums\\TrustLevelEnum.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Enums\\TrustLevelEnum.cs",
@@ -2988,7 +3023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 191,
+              "DocumentIndex": 193,
               "Title": "AuditableEntity.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\Entities\\AuditableEntity.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\Entities\\AuditableEntity.cs",
@@ -3000,7 +3035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 192,
+              "DocumentIndex": 194,
               "Title": "ITenantEntity.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Domain\\Common\\ITenantEntity.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Common\\ITenantEntity.cs",
@@ -3012,7 +3047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 193,
+              "DocumentIndex": 195,
               "Title": "CurrentUserService.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Services\\CurrentUserService.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\CurrentUserService.cs",
@@ -3024,7 +3059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 194,
+              "DocumentIndex": 196,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\ICurrentUserService.cs",
@@ -3036,7 +3071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 195,
+              "DocumentIndex": 197,
               "Title": "20251103092733_Add_Member_FK_User.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251103092733_Add_Member_FK_User.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251103092733_Add_Member_FK_User.cs",
@@ -3048,7 +3083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 196,
+              "DocumentIndex": 198,
               "Title": "RegisterCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Register\\RegisterCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\Register\\RegisterCommand.cs",
@@ -3060,7 +3095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 197,
+              "DocumentIndex": 199,
               "Title": "SlugGenerator.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Utils\\SlugGenerator.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Utils\\SlugGenerator.cs",
@@ -3072,7 +3107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 198,
+              "DocumentIndex": 200,
               "Title": "ITenantProvider.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\ITenantProvider.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\ITenantProvider.cs",
@@ -3084,7 +3119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 199,
+              "DocumentIndex": 201,
               "Title": "20251101111639_Add_Post_Tag_PostTag.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251101111639_Add_Post_Tag_PostTag.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251101111639_Add_Post_Tag_PostTag.cs",
@@ -3096,19 +3131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 200,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
-              "ToolTip": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
-              "RelativeToolTip": "..\\Application\\Auth\\Commands\\Login\\LoginCommandHandler.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:22:38.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 201,
+              "DocumentIndex": 202,
               "Title": "VotePostCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\VotePost\\VotePostCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\VotePost\\VotePostCommand.cs",
@@ -3120,7 +3143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 202,
+              "DocumentIndex": 203,
               "Title": "UpdatePostCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Commands\\UpdatePost\\UpdatePostCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Commands\\UpdatePost\\UpdatePostCommand.cs",
@@ -3132,7 +3155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 203,
+              "DocumentIndex": 204,
               "Title": "ListPostsByTagQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListByTag\\ListPostsByTagQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\ListByTag\\ListPostsByTagQuery.cs",
@@ -3144,7 +3167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 204,
+              "DocumentIndex": 205,
               "Title": "ListPostsQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\ListPosts\\ListPostsQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\ListPosts\\ListPostsQuery.cs",
@@ -3156,7 +3179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 205,
+              "DocumentIndex": 206,
               "Title": "GetPostDetailQuery.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Posts\\Queries\\GetPostDetail\\GetPostDetailQuery.cs",
               "RelativeDocumentMoniker": "..\\Application\\Posts\\Queries\\GetPostDetail\\GetPostDetailQuery.cs",
@@ -3168,7 +3191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 206,
+              "DocumentIndex": 207,
               "Title": "20251101090513_Add_Auth_Tokens.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251101090513_Add_Auth_Tokens.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251101090513_Add_Auth_Tokens.cs",
@@ -3180,7 +3203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 207,
+              "DocumentIndex": 208,
               "Title": "VerifyEmailCommandHandler.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\VerifyEmail\\VerifyEmailCommandHandler.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\VerifyEmail\\VerifyEmailCommandHandler.cs",
@@ -3192,7 +3215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 208,
+              "DocumentIndex": 209,
               "Title": "VerifyEmailCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\VerifyEmail\\VerifyEmailCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\VerifyEmail\\VerifyEmailCommand.cs",
@@ -3204,7 +3227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 209,
+              "DocumentIndex": 210,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Auth\\Commands\\Login\\LoginCommand.cs",
               "RelativeDocumentMoniker": "..\\Application\\Auth\\Commands\\Login\\LoginCommand.cs",
@@ -3216,7 +3239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 210,
+              "DocumentIndex": 211,
               "Title": "IJwtTokenGenerator.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\IJwtTokenGenerator.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\IJwtTokenGenerator.cs",
@@ -3228,7 +3251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 211,
+              "DocumentIndex": 212,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Application\\Common\\Interfaces\\IEmailSender.cs",
               "RelativeDocumentMoniker": "..\\Application\\Common\\Interfaces\\IEmailSender.cs",
@@ -3240,7 +3263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 212,
+              "DocumentIndex": 213,
               "Title": "20251101081229_Init_Core_Identity_Member.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Migrations\\20251101081229_Init_Core_Identity_Member.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20251101081229_Init_Core_Identity_Member.cs",
@@ -3252,7 +3275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 213,
+              "DocumentIndex": 214,
               "Title": "TenantProvider.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Services\\TenantProvider.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Services\\TenantProvider.cs",
@@ -3264,7 +3287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 214,
+              "DocumentIndex": 215,
               "Title": "TenantInterceptor.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Interceptors\\TenantInterceptor.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Interceptors\\TenantInterceptor.cs",
@@ -3276,7 +3299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 215,
+              "DocumentIndex": 216,
               "Title": "SoftDeleteInterceptor.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Interceptors\\SoftDeleteInterceptor.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Interceptors\\SoftDeleteInterceptor.cs",
@@ -3288,7 +3311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 216,
+              "DocumentIndex": 217,
               "Title": "AuditingInterceptor.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Interceptors\\AuditingInterceptor.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Interceptors\\AuditingInterceptor.cs",
@@ -3300,7 +3323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 217,
+              "DocumentIndex": 218,
               "Title": "TrustLevelConfiguration.cs",
               "DocumentMoniker": "D:\\DATN\\FinalProject\\Infrastructure\\Persistence\\Configurations\\TrustLevelConfiguration.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Persistence\\Configurations\\TrustLevelConfiguration.cs",
