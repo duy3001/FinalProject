@@ -5,6 +5,10 @@ using Domain.Common.Enums;
 using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Application.Comments.Handlers
 {
@@ -12,10 +16,19 @@ namespace Application.Comments.Handlers
     {
         private readonly IApplicationDbContext _db;
         private readonly ICurrentUserService _current;
+        private readonly IEmbeddingService _embeddingService;
+        private readonly IVectorSearchService _vectorSearch;
 
-        public AddCommentCommandHandler(IApplicationDbContext db, ICurrentUserService current)
+        public AddCommentCommandHandler(
+            IApplicationDbContext db, 
+            ICurrentUserService current,
+            IEmbeddingService embeddingService,
+            IVectorSearchService vectorSearch)
         {
-            _db = db; _current = current;
+            _db = db; 
+            _current = current;
+            _embeddingService = embeddingService;
+            _vectorSearch = vectorSearch;
         }
 
         public async Task<CommentDto> Handle(AddCommentCommand request, CancellationToken ct)
@@ -98,6 +111,20 @@ namespace Application.Comments.Handlers
                 .Select(m => m.DisplayName)
                 .FirstOrDefaultAsync(ct) ?? "unknown";
 
+            // Save to Qdrant (only for top-level comments, not replies)
+            if (parentComment == null)
+            {
+                try
+                {
+                    await SaveAnswerToQdrantAsync(cmt.Id, post.Id, body, cmt.CreatedAt, ct);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error saving answer to Qdrant: {ex.Message}");
+                    // Continue even if Qdrant save fails
+                }
+            }
+
             return new CommentDto
             {
                 Id = cmt.Id,
@@ -106,6 +133,40 @@ namespace Application.Comments.Handlers
                 AuthorDisplayName = authorName,
                 CreatedAt = cmt.CreatedAt
             };
+        }
+
+        private async Task SaveAnswerToQdrantAsync(long commentId, long postId, string answerText, DateTime createdAt, CancellationToken ct)
+        {
+            // Generate embedding for the answer
+            var vector = await _embeddingService.GenerateEmbeddingAsync(answerText, ct);
+
+            // Generate IDs (using format: answer-{commentId} and question-{postId})
+            var answerId = $"answer-{commentId}";
+            var questionId = $"question-{postId}";
+
+            // Build payload according to the required format
+            var payload = new Dictionary<string, object>
+            {
+                { "answer_id", answerId },
+                { "question_id", questionId },
+                { "answer_text", answerText },
+                { "is_active", true },
+                { "created_at", createdAt.ToString("O") },
+                { "post_id", postId }, // Also store post_id for easier lookup
+                { "comment_id", commentId } // Also store comment_id for easier lookup
+            };
+
+            // Ensure collection exists
+            var collectionName = "answers";
+            var exists = await _vectorSearch.CollectionExistsAsync(collectionName, ct);
+            if (!exists)
+            {
+                var vectorSize = _embeddingService.GetVectorSize();
+                await _vectorSearch.CreateCollectionAsync(collectionName, vectorSize, ct);
+            }
+
+            // Upsert to Qdrant
+            await _vectorSearch.UpsertPointAsync(collectionName, answerId, vector, payload, ct);
         }
     }
 }

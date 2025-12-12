@@ -1,4 +1,5 @@
 ﻿using Application.Common.Models;
+using Application.Posts.Commands.AskQuestionWithAI;
 using Application.Posts.Commands.CreatePost;
 using Application.Posts.Commands.UpdatePost;
 using Application.Posts.Commands.VotePost;
@@ -148,6 +149,15 @@ namespace QnA_BE.Controllers
         {
             var ok = await _mediator.Send(new RemoveAttachmentCommand(id, attId), ct);
             return Ok(new { success = ok });
+        }
+
+        // POST /api/v1/posts/ask-ai
+        [HttpPost("posts/ask-ai")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<AskQuestionWithAIResponse>> AskQuestionWithAI([FromBody] AskQuestionWithAIRequest request, CancellationToken ct = default)
+        {
+            var response = await _mediator.Send(new AskQuestionWithAICommand(request), ct);
+            return Ok(response);
         }
 
     }

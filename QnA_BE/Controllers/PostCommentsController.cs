@@ -1,6 +1,7 @@
 ﻿using Application.Comments.Commands.AddComment;
 using Application.Comments.Commands.UpdateComment;
 using Application.Comments.Commands.VoteComment;
+using Application.Comments.Commands.DeleteComment;
 using Application.Comments.DTOs;
 using Application.Comments.Queries.GetCommentRevisionDetail;
 using Application.Comments.Queries.GetCommentRevisions;
@@ -51,6 +52,16 @@ namespace QnA_BE.Controllers
             // postId ở route là để đảm bảo URL đẹp/đúng ngữ cảnh; xử lý dựa vào commentId
             var dto = await _mediator.Send(new UpdateCommentCommand(commentId, request), ct);
             return Ok(dto);
+        }
+
+        // DELETE /api/v1/posts/{postId}/comments/{commentId} (auth)
+        [HttpDelete("{commentId:long}")]
+        [Authorize]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        public async Task<ActionResult<object>> Delete(long postId, long commentId, CancellationToken ct)
+        {
+            var ok = await _mediator.Send(new DeleteCommentCommand(commentId), ct);
+            return Ok(new { success = ok });
         }
 
         // POST /api/v1/posts/{postId}/comments/{commentId}/vote (auth)

@@ -16,5 +16,8 @@ namespace Application.Posts.DTOs
         public long? CategoryId { get; init; }
         public string? CategorySlug { get; init; }
         public string? CategoryName { get; init; }
+        public List<PostDto> RelatedPosts { get; set; } = new();
+        public string? AIAnswer { get; set; } // AI-generated answer
+        public List<long> RelatedQuestionIds { get; set; } = new(); // Related question IDs from AI search
     }
 }

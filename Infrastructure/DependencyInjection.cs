@@ -105,6 +105,18 @@ namespace Infrastructure
             services.AddScoped<IEmailSender, EmailSender>();
             services.AddScoped<IFileStorage, LocalFileStorage>();
 
+            // Qdrant Vector Search
+            services.AddSingleton<IVectorSearchService, QdrantService>();
+
+            // HTTP Client for external services
+            services.AddHttpClient();
+
+            // Embedding Service
+            services.AddScoped<IEmbeddingService, EmbeddingService>();
+
+            // AI Service
+            services.AddScoped<IAIService, AIService>();
+
             return services;
         }
 
